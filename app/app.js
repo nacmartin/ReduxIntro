@@ -11,9 +11,10 @@ import Multiplier from './components/Multiplier';
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import counterReducer from './reducer';
-import devToolsEnhancer from 'remote-redux-devtools';
+//import devToolsEnhancer from 'remote-redux-devtools';
 
-let store = createStore(counterReducer, devToolsEnhancer());
+//let store = createStore(counterReducer, devToolsEnhancer());
+let store = createStore(counterReducer);
 
 export default class CounterApp  extends Component {
     render() {

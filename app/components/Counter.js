@@ -15,12 +15,12 @@ const Counter = (props) => {
                 {props.counter}
             </Text>
             <Button
-                backgroundColor={'#406540'}
+                backgroundColor={'#496943'}
                 onPress={props.dispatch.bind(this, {type: 'INCREMENT'})}
                 title="Increment"
             />
             <Button
-                backgroundColor={'#654040'}
+                backgroundColor={'#6b4644'}
                 onPress={props.dispatch.bind(this, {type: 'DECREMENT'})}
                 title="Decrement"
             />
